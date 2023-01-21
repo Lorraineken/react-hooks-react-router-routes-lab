@@ -7,8 +7,9 @@ import Directors from "./Directors";
 import Movies from "./Movies";
 
 function App() {
-  return (<div>
-    <NavBar/>
+  return (
+  <div>
+    <NavBar />
     <Switch>
       <Route exact path="/">
         <Home/>
